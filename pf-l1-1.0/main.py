@@ -1,0 +1,15 @@
+#print("What is your first name?")
+#first_name = input()
+#print("What is your last name?")
+#last_name = input()
+#print("Hey " + first_name + " " + last_name + "!")
+
+name = input("Enter your name:")
+job_name = input("Enter the job name:")
+first_adjective = input("Enter the first adjective:")
+second_adjective = input("Enter the second adjective:")
+first_food = input("Enter the first food:")
+second_food = input("Enter the second food:")
+feeling = input("Enter a feeling:")
+
+print(f'''{name} started their first Generation course today. They are training as a {job_name}. They found their cohort to be very {first_adjective} but their teacher was, at least, {second_adjective}. For lunch they have {first_food} and {second_food} while reviewing their notes. They feel {feeling} but are determined to complete the course. ''')
